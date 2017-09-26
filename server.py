@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
 import time
+import redis
 
 app = Flask(__name__)
 connection = MongoClient()
